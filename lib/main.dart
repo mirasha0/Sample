@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Theme.dart';
 import 'login_screen.dart';
+import 'onBoarding.dart';
 
 
 Future<void> main() async{
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: myTheme, //import theme class
-      home: const Login(),
+      home: const onboard(),
     );
   }
 }
